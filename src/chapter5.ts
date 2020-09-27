@@ -20,4 +20,5 @@ function giveFood(dog: Dog, food: string) {
 
 giveFood(new Dog(), "apple");
 // Cat can set as parameter.because Cat class has same method
+// but if Dog has private field, Cat can not set here.
 giveFood(new Cat(), "apple");
